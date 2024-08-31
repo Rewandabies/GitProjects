@@ -18,7 +18,7 @@ The *Clinic Management System (CMS)* is a software application built using the C
 
 ### Installation
 1. *Repository:*
-   git clone https://github.com/yourusername/clinic-management-system.git
+   https://github.com/Rewandabies/clinic_management_system.git
    
 2. *Navigate to the Project Directory:*
    bash
