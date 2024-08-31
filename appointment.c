@@ -1,6 +1,6 @@
 /*================================================================
 *    @file             : appointment.c
-*    @brief            : appointment management 
+*    @brief            : appointment management high level code
 *    @author           : Rewan Dabies
 =================================================================*/
 
