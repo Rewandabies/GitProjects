@@ -1,7 +1,15 @@
+/*================================================================
+*    @file             : appointment.c
+*    @brief            : appointment management 
+*    @author           : Rewan Dabies
+=================================================================*/
+
+/* Linking Section starts */
 #include <stdio.h>
 #include <stdlib.h>
 #include "appointment.h"
 #include "utilities.h"
+/* Linking Section ends */
 
 static unsigned int appointmentsCount = 0;
 static struct appointment appointments[100];
@@ -40,4 +48,12 @@ for(int i = 0; i < appointmentsCount; i++){
             appointments[i].time);
 }
 }
+
+
+/*==============================================================================
+
+    Date                By                 Description
+    ------------        ------------       ------------
+    31August2024        Rewan Dabies       creating appointment management file
+==============================================================================*/
 
