@@ -1,7 +1,15 @@
+/*================================================================
+*    @file             : patient.c
+*    @brief            : patient management high level code
+*    @author           : Rewan Dabies
+=================================================================*/
+
+/* Linking Section starts */
 #include <stdio.h>
 #include <stdlib.h>
 #include "patient.h"
 #include "utilities.h"
+/* Linking Section ends */
 
 static unsigned int patientscount = 0;
 static struct patient patients[100];
@@ -58,3 +66,11 @@ for(int i = 0; i < patientscount; i++){
            patients[i].gender);
 }
 }
+
+/*==============================================================================
+
+    Date                By                  Description
+    ------------        ------------        ------------
+    31August2024        Rewan Dabies        creating patients management file
+==============================================================================*/
+
