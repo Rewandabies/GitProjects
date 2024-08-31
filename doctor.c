@@ -1,7 +1,15 @@
+/*================================================================
+*    @file             : doctor.c
+*    @brief            : doctor management high level code
+*    @author           : Rewan Dabies
+=================================================================*/
+
+/* Linking Section starts */
 #include <stdio.h>
 #include <stdlib.h>
 #include "doctor.h"
 #include "utilities.h"
+/* Linking Section ends */
 
 static unsigned int doctorscount = 0;
 static struct doctor doctors[100];
@@ -45,3 +53,11 @@ for(int i = 0; i < doctorscount; i++){
             doctors[i].doctor_specialization);
 }
 }
+
+/*==============================================================================
+
+    Date                By                  Description
+    ------------        ------------        ------------
+    31August2024        Rewan Dabies        creating doctors management file
+==============================================================================*/
+
