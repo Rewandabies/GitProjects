@@ -1,8 +1,16 @@
+/*================================================================
+*    @file             : billing.c
+*    @brief            : bill management high level code
+*    @author           : Rewan Dabies
+=================================================================*/
+
+
+/* Linking Section starts */
 #include <stdio.h>
 #include <stdlib.h>
 #include "billing.h"
 #include "utilities.h"
-
+/* Linking Section ends */
 
 static unsigned int billsCount = 0;
 static struct bill bills[100];
@@ -36,3 +44,10 @@ for(int i = 0; i < billsCount; i++){
             bills[i].amount);
 }
 }
+
+/*==============================================================================
+
+    Date                By                  Description
+    ------------        ------------        ------------
+    31August2024        Rewan Dabies        creating bills management file
+==============================================================================*/
